@@ -1,9 +1,5 @@
 package Naga
 
-/**
-  * @author gavinzjchao@tencent.com all rights reserved
-  */
-
 import scala.collection.mutable
 
 object FeatureType extends Enumeration {

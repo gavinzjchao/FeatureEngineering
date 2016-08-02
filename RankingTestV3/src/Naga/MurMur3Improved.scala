@@ -6,10 +6,6 @@ import org.apache.spark.mllib.linalg.{Vector, Vectors}
 
 import scala.collection.mutable
 
-/**
-  * Created by gavinzjchao on 2016/6/28.
-  */
-
 class MurMur3Improved(numFeatures: Int = 1024, seed: Int = 42) {
   final def mix(hash: Int, data: Int): Int = {
     var h = mixLast(hash, data)

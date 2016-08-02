@@ -10,7 +10,6 @@ import scala.collection.immutable.Set
 import scala.util.Try
 
 /**
-  * @author gavinzjchao@tencent.com all rights reserved
   * @param numFeatures feature numbers, support for scalable, dynamic feature enrichment
   * @param paramsSize feature's parameter size
   */

@@ -10,7 +10,6 @@ import utilities.AuxUtil
 import scala.collection.mutable
 
 /**
-  * @author gavinzjchao@tencent.com all rights reserved
   * @param formatter factory class for dealing with different feature types
   */
 class Container(val formatter: Formatter) extends Serializable {

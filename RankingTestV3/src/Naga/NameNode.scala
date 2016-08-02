@@ -3,7 +3,6 @@ package Naga
 import scala.collection.mutable
 
 /**
-  * @author gavinzjchao@tencent.com all rights reserved
   * @param feature feature
   */
 abstract class NameNode(val feature: Feature) extends Serializable {
